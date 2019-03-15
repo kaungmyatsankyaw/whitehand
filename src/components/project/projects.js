@@ -1,12 +1,15 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 
+
 const imageStyle = {
     with: '100%',
     height: '400px'
 };
 
 const Projects = (props) => {
+
+
 
     return (
 
@@ -17,7 +20,7 @@ const Projects = (props) => {
                 <span>Category</span>
                 <h3>Lorem ipsum dolor</h3>
                 <div className="work-link">
-                    <Link to={'/project/'+props.project.id}>
+                    <Link to={'/project/' + props.project.id}>
                         <i className="fa fa-external-link"></i>
                     </Link>
                     <a className="lightbox" href={props.project.url}>

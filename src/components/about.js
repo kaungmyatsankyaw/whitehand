@@ -1,7 +1,16 @@
 import React, {Component} from 'react';
+import scrollToElement from '../scroll';
 import {Element} from 'react-scroll';
 
 class About extends Component {
+
+    componentDidMount() {
+        var location = window.location.pathname;
+        if (location === '/about') {
+            scrollToElement('about')
+        }
+    }
+
     render() {
         return (
             <div>

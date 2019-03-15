@@ -23,7 +23,8 @@ class Detail extends Component {
     render() {
         return (
             <div>
-
+                <Header/>
+                <Footer/>
             </div>
         )
     }

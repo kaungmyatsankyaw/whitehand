@@ -64,7 +64,11 @@ const Header = (props) => {
                                    <span onClick={()=> scrollToElement('project')}> Our Projects</span>
                                 </Link>
                             </li>
-                            <li><a href="#" onClick={() => scrollToElement('offer')}>Services</a></li>
+                            <li>
+                                <Link to='/service'>
+                                <span onClick={() => scrollToElement('offer')}>Services</span>
+                                </Link>
+                            </li>
                             <li><a href="#" onClick={() => scrollToElement('team')}>Team</a></li>
                             <li><a href="#" onClick={() => scrollToElement('contact')}>Contact</a></li>
                         </ul>
@@ -86,8 +90,8 @@ const Header = (props) => {
                                         sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu.
                                         Nunc posuere.
                                     </p>
-                                    <button className="white-btn">Get Started!</button>
-                                    <button className="main-btn">Learn more</button>
+                                    {/*<button className="white-btn">Get Started!</button>*/}
+                                    <button className="main-btn" onClick={()=>scrollToElement('contact')}>Contact Us</button>
                                 </div>
                             </div>
                             {/*/home content */}
