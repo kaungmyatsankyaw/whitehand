@@ -5,13 +5,10 @@
   "dependencies": {
     "axios": "^0.18.0",
     "jquery": "^3.3.1",
-<<<<<<< HEAD
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-=======
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
->>>>>>> efff24e6a1fa4846777ca85b3a55f1ec7848b427
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.8",
     "react-scroll": "^1.7.11",
