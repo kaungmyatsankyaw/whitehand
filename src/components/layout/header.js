@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 import React  from 'react';
 import {scroller} from 'react-scroll';
 import {Link} from 'react-router-dom';
+=======
+import React, {Component} from 'react';
+import {scroller} from 'react-scroll';
+>>>>>>> efff24e6a1fa4846777ca85b3a55f1ec7848b427
 
 import logo from '../../resources/img/logo.png';
 import logo_alt from '../../resources/img/logo-alt.png';
@@ -54,6 +59,7 @@ const Header = (props) => {
 
                         <ul className="main-nav nav navbar-nav navbar-right">
                             <li><a href="#" onClick={() => scrollToElement('home')}>Home</a></li>
+<<<<<<< HEAD
                             <li>
                                 <Link to="/about">
                                     <span onClick={() => scrollToElement('about')}>About</span>
@@ -69,6 +75,11 @@ const Header = (props) => {
                                 <span onClick={() => scrollToElement('offer')}>Services</span>
                                 </Link>
                             </li>
+=======
+                            <li><a href="#" onClick={() => scrollToElement('about')}>About</a></li>
+                            <li><a href="#" onClick={() => scrollToElement('project')}>Our Projects</a></li>
+                            <li><a href="#" onClick={() => scrollToElement('offer')}>Services</a></li>
+>>>>>>> efff24e6a1fa4846777ca85b3a55f1ec7848b427
                             <li><a href="#" onClick={() => scrollToElement('team')}>Team</a></li>
                             <li><a href="#" onClick={() => scrollToElement('contact')}>Contact</a></li>
                         </ul>
@@ -90,8 +101,13 @@ const Header = (props) => {
                                         sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu.
                                         Nunc posuere.
                                     </p>
+<<<<<<< HEAD
                                     {/*<button className="white-btn">Get Started!</button>*/}
                                     <button className="main-btn" onClick={()=>scrollToElement('contact')}>Contact Us</button>
+=======
+                                    <button className="white-btn">Get Started!</button>
+                                    <button className="main-btn">Learn more</button>
+>>>>>>> efff24e6a1fa4846777ca85b3a55f1ec7848b427
                                 </div>
                             </div>
                             {/*/home content */}
