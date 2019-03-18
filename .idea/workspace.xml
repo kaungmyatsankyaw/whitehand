@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fa83bd8-569d-4d99-b193-c622342e364a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/offer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/offer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/project/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/project/project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/project/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/project/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/js/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="3fa83bd8-569d-4d99-b193-c622342e364a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +271,7 @@
       <workItem from="1552450911084" duration="13609000" />
       <workItem from="1552532660072" duration="8491000" />
       <workItem from="1552555889744" duration="5792000" />
-      <workItem from="1552619826291" duration="4673000" />
+      <workItem from="1552619826291" duration="5048000" />
     </task>
     <task id="LOCAL-00001" summary="Apply: Update Commit">
       <created>1552620439127</created>
@@ -295,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32565000" />
+    <option name="totallyTimeSpent" value="32940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
@@ -312,10 +301,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.45889387" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.45889387" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32884902" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32884902" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32884902" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />

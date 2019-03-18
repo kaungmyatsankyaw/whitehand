@@ -1,7 +1,7 @@
 import jQuery from 'jquery';
 
 (function($) {
-	"use strict"
+
 
 	///////////////////////////
 	// Preloader
@@ -20,7 +20,7 @@ import jQuery from 'jquery';
 	// Smooth scroll
 	$("#nav .main-nav a[href^='#']").on('click', function(e) {
 		e.preventDefault();
-		var hash = this.hash;
+		// var hash = this.hash;
 		$('html, body').animate({
 			scrollTop: $(this.hash).offset().top
 		}, 600);
@@ -50,7 +50,8 @@ import jQuery from 'jquery';
 		var wScroll = $(this).scrollTop();
 
 		// Fixed nav
-		wScroll > 1 ? $('#nav').addClass('fixed-nav') : $('#nav').removeClass('fixed-nav');
+		wScroll > 1 ?
+			$('#nav').addClass('fixed-nav') : $('#nav').removeClass('fixed-nav');
 
 		// Back To Top Appear
 		wScroll > 700 ? $('#back-to-top').fadeIn() : $('#back-to-top').fadeOut();

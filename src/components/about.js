@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+
 import scrollToElement from '../scroll';
 import {Element} from 'react-scroll';
 
@@ -34,7 +35,7 @@ class About extends Component {
                                         <h3>Fully Customizible</h3>
                                         <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit
                                             amet.</p>
-                                        <a href="#">Read more</a>
+
                                     </div>
                                 </div>
 
@@ -44,7 +45,7 @@ class About extends Component {
                                         <h3>Awesome Features</h3>
                                         <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit
                                             amet.</p>
-                                        <a href="#">Read more</a>
+
                                     </div>
                                 </div>
 
@@ -54,7 +55,7 @@ class About extends Component {
                                         <h3>Fully Responsive</h3>
                                         <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit
                                             amet.</p>
-                                        <a href="#">Read more</a>
+
                                     </div>
                                 </div>
 

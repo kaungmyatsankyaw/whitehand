@@ -21,8 +21,9 @@ class Project extends Component {
             scrollToElement('projects')
         }
 
-        axios.get('http://www.splashbase.co/api/v1/images/latest').then((response) => {
-            this.setState({projects: response.data.images});
+        axios.get('http://localhost/wh_cms/public/api/project').then((response) => {
+            // console.log(response);
+            this.setState({projects: response.data});
             console.log(this.state.projects)
         })
     }

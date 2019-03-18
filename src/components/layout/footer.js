@@ -17,17 +17,19 @@ const Footer = () => {
 
 
                             <ul className="footer-follow">
-                                <li><a href="www.facebook.com"><i className="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i className="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i className="fa fa-youtube"></i></a></li>
+                                <li><a href="www.facebook.com" role="button"><i className="fa fa-facebook"></i></a></li>
+                                <li><a href="www.twitter.com"><i className="fa fa-twitter"></i></a></li>
+                                <li><a href="www.google.com"><i className="fa fa-google-plus"></i></a></li>
+                                <li><a href="www.facebook.com"><i className="fa fa-instagram"></i></a></li>
+                                <li><a href="www.facebook.com"><i className="fa fa-linkedin"></i></a></li>
+                                <li><a href="www.facebook.com"><i className="fa fa-youtube"></i></a></li>
                             </ul>
+
+
 
                             <div className="footer-copyright">
                                 <p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com"
-                                                                                         target="_blank">Colorlib</a>
+                                                                                        >Colorlib</a>
                                 </p>
                             </div>
 
